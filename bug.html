@@ -1,0 +1,4 @@
+<p>This HTML snippet has a common error: it attempts to use a JavaScript variable directly within HTML.  This won't work as intended because the JavaScript variable won't be evaluated within the HTML context; it will literally insert the variable name.</p><pre><code>&lt;p&gt;My name is &lt;span id="name"&gt;userName&lt;/span&gt;&lt;/p&gt;
+&lt;script&gt;
+  let userName = "John Doe";
+&lt;/script&gt;</code></pre>
